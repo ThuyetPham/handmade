@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main>
+        <div class="sidebar">
+            <div class="sidebar-title">
+                <h2>HandMade</h2> 
+            </div>
+
+            <ul class="sidebar-categories">
+    
+            </ul>
+        </div>
+
+        <div class="content">
+            <div class="content__top">
+                <div class="search">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="Tìm kiếm sách" onkeyup="searchHM(this.value)">
+                </div>
+                
+                <div class="cart">
+                    <button><i class="fas fa-shopping-cart"></i></button>
+                    <div class="cart-item">
+                        <div class="cart-item-top">MY CART</div>
+                        <div class="cart-item-body">
+                            <ul>    
+                                <li>
+                                    <img src="https://salt.tikicdn.com/cache/w390/ts/product/ac/1e/af/d161b08dd231e25bb03717dd3372e39b.jpg" alt="">
+                                    <div class="infor">
+                                        <div class="title">
+                                            <span>xxxxxxxxxxxxxxxxxxx</span>
+                                            <button type="button"><i class="fas fa-times"></i></button>
+                                        </div>
+                                        <div class="actions">
+                                            <span class="price">$520</span>
+                                            <div class="qty">
+                                                <button type="button">-</button>
+                                                <input type="text">
+                                                <button type="button">+</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                               
+                            </ul>
+                        </div>
+                        <div class="cart-item-footer">
+                            <p class="total">
+                                TOTAL: <span >$640</span>
+                            </p>
+    
+                            <button class="checkout">Checkout <i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content__body">
+               
+            </div>
+        </div>
+    </main>
+    <script src='./script.js'></script>
+</body>
+</html>
